@@ -1,5 +1,5 @@
-.. image:: https://readthedocs.org/projects/skylosaacquire/badge/?version=latest
-  :target: https://skylosaacquire.readthedocs.io/en/latest/?badge=latest
+.. image:: https://readthedocs.org/projects/setupskylosa/badge/?version=latest
+  :target: https://setupskylosa.readthedocs.io/en/latest/?badge=latest
   :alt: Documentation Status
 
 ###################################################################
