@@ -1,0 +1,6 @@
+/* override table margin restrictions on new lines */
+@import "theme.css";
+
+table.docutils div.line-block {
+    margin-left: 0;
+}

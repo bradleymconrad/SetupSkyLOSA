@@ -1,0 +1,57 @@
+Time_Source	Check to use system timestamp or\tuncheck to input date and time manually.
+
+Time_Reset	Click to update the date/time fields using the system timestamp.
+
+Time_UTC	Set time zone relative to Coordinated Universal time.\tE.g., North American "Eastern" time is -4 during\tdaylight savings and -5 otherwise.
+
+Loc_OtherCompute	Click to set location data using an alternative GPS format\t(Decimal minute or Decimal-Minute-Second).
+
+Sky_Source	Select skylight intensity distribution model.\tSky groups A-D combine appropriate CIE sky models\tto provide uncertainty estimates under broader conditions.
+
+Fun_Run	Load and plot Monte Carlo data.
+
+Fun_Clear	Clear data to edit the date, location,\tand/or skylight intensity distribution model.
+
+Stats_ToPlot	Select the statistic to be plotted.
+
+Stats_ctr	Select the measure of central tendency.
+
+Stats_var	Select the measure of variability.\t"Standard Deviation" is the directly-calculated value from the Monte Carlo analysis.\tAll other parameters are the Gaussian-equivalent standard deviation based on a Monte Carlo-quantified percentile range.
+
+Cam_Source	Select the sky-LOSA-appropriate camera being used\tor select manual input to define sensor properties.\tNote: some cameras use the same sCMOS sensor.
+
+Cam_Pitch	Define the physical dimensions of the\tcamera sensor's pixels (assumed to be square) in micrometers.
+
+Cam_Width	Define the width (horizontal) of the\tcamera sensor in pixels.
+
+Cam_Height	Define the height (vertical) of the\tcamera sensor in pixels.
+
+Cam_Focal	Define the focal length of the optics in millimeters.
+
+IntEdit_Plume	Adjust the observed transmittance of the plume at the measurement wavelength.
+
+IntEdit_Wind	Adjust the wind direction.
+
+IntEdit_Cont	Adjust the plotted contour of the displayed statistic.
+
+IntEdit_Time	Adjust the time of day / solar position.
+
+IntSlide_Plume	Adjust the observed transmittance of the plume at the measurement wavelength.
+
+IntSlide_Wind	Adjust the wind direction.
+
+IntSlide_Cont	Adjust the plotted contour of the displayed statistic.
+
+IntSlide_Time	Adjust the time of day / solar position.
+
+Panel_Sun	Solar position data for date/time and location.
+
+Panel_Cursor	Plotted data for current and selected cursor position(s).
+
+Panel_PlotVis	Click the buttons to toggle the visibility of plots.
+
+Im_Carleton	Click to go to Carleton University's\tFaculty of Engineering and Design's website.
+
+Im_EERL	Click to go to the Energy and Emissions Lab's website.
+
+Im_FlareNet	Click to go to NSERC FlareNet's website.

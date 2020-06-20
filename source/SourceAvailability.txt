@@ -1,0 +1,1 @@
+The complete source distribution (with all data) is available in a zipped folder in the latest release.

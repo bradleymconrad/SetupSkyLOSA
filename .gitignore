@@ -1,0 +1,37 @@
+# Freefile sync locks and databases
+*.ffs_lock
+*.ffs_db
+
+# Windows shortcuts
+*.lnk
+
+# Windows default autosave extension
+*.asv
+
+# MATLAB toolbox files
+*.mltbx
+
+# MATLAB projects
+*.prj
+Packaging
+
+# Generated helpsearch folders
+helpsearch*/
+
+# MATLAB code generation folders
+codegen/
+
+# MATLAB installer and large files
+*.exe
+*.mlappinstall
+SkyType*.mat
+
+# Zipped directories
+*.zip
+
+# Sphinx support folders
+_build
+
+# Sphinx make file
+# make.bat
+# MakeFile
