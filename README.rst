@@ -26,7 +26,7 @@ The accompanying submission to the `Journal of Atmospheric Measurement Technique
 Documentation
 *************
 
-*SetupSkyLOSA* includes complete documentation hosted by `Read the Docs <http://skylosaacquire.readthedocs.io/>`_.
+*SetupSkyLOSA* includes complete documentation hosted by `Read the Docs <http://setupskylosa.readthedocs.io/>`_.
 
 *******
 License
