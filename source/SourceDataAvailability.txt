@@ -1,1 +1,1 @@
-Source data are available in a zipped folder in the latest release.
+Source data are available in a zipped folder (data.zip) in the latest release.  Paste the extracted folder in the source/support directory.
