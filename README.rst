@@ -1,3 +1,5 @@
+.. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.3908587.svg
+   :target: https://doi.org/10.5281/zenodo.3908587
 .. image:: https://readthedocs.org/projects/setupskylosa/badge/?version=latest
   :target: https://setupskylosa.readthedocs.io/en/latest/?badge=latest
   :alt: Documentation Status
