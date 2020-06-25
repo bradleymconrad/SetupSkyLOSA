@@ -25,6 +25,7 @@ codegen/
 *.exe
 *.mlappinstall
 SkyType*.mat
+SetupSkyLOSA_Support_SolarPositionConstants.mat
 
 # Zipped directories
 *.zip

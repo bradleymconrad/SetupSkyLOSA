@@ -1,0 +1,1 @@
+Source data are available in a zipped folder in the latest release.
