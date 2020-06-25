@@ -8,15 +8,15 @@ Loc_OtherCompute	Click to set location data using an alternative GPS format\t(De
 
 Sky_Source	Select skylight intensity distribution model.\tSky groups A-D combine appropriate CIE sky models\tto provide uncertainty estimates under broader conditions.
 
-Fun_Run	Load and plot Monte Carlo data.
+Fun_Run	Load and plot Monte Carlo data for the selected sky model
 
-Fun_Clear	Clear data to edit the date, location,\tand/or skylight intensity distribution model.
+Fun_Clear	Clear data to edit the date, location,\tand/or sky model.
 
 Stats_ToPlot	Select the statistic to be plotted.
 
 Stats_ctr	Select the measure of central tendency.
 
-Stats_var	Select the measure of variability.\t"Standard Deviation" is the directly-calculated value from the Monte Carlo analysis.\tAll other parameters are the Gaussian-equivalent standard deviation based on a Monte Carlo-quantified percentile range.
+Stats_var	Select the measure of variability.\t"Standard Deviation" is the directly-calculated value from the Monte Carlo analysis.\tAll other parameters are the Gaussian-equivalent standard deviation based on a Monte Carlo-quantified confidence itnerval or median absolute deviation.
 
 Cam_Source	Select the sky-LOSA-appropriate camera being used\tor select manual input to define sensor properties.\tNote: some cameras use the same sCMOS sensor.
 
@@ -48,10 +48,26 @@ Panel_Sun	Solar position data for date/time and location.
 
 Panel_Cursor	Plotted data for current and selected cursor position(s).
 
+Selected_Azi	Adjust the specified camera bearing\t(or click on plot).
+
+Selected_Inc	Adjust the specified camera inclination\t(or click on plot).
+
 Panel_PlotVis	Click the buttons to toggle the visibility of plots.
+
+PlotVis_Sun	Toggle visibility of the daily/current solar position.
+
+PlotVis_Con	Toggle visibility of the contour specified by the "Data Contour" field.
+
+PlotVis_Cam	Toggle visibility of the extent of the image boundaries for the selected bearing and inclination.
+
+PlotVis_Win	Toggle visibility of the optimal bearings relative to the specified wind direction (orthogonal +\- 18.2 degrees)
 
 Im_Carleton	Click to go to Carleton University's\tFaculty of Engineering and Design's website.
 
 Im_EERL	Click to go to the Energy and Emissions Lab's website.
 
 Im_FlareNet	Click to go to NSERC FlareNet's website.
+
+Maximizer_Button	Click to run the "maximizer" utility (Ctrl+M)
+
+Positioner_Button	Click to run the "positioner" utility (Ctrl+P)

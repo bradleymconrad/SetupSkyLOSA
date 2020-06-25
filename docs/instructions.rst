@@ -118,8 +118,8 @@ Below the figure axes are four slider bars that allow the user to perturb variou
 
   #. Time adjustment: the **local** time at which data are plotted.
 
-Displayed Numeric Outputs
--------------------------
+Numeric Outputs
+---------------
 
 Three sets of numerical output data are provided.
 
@@ -137,6 +137,8 @@ Three sets of numerical output data are provided.
   * - Cursor Position (Selected)
     - Shows the camera bearing from North (:math:`\alpha_N`), camera inclination (:math:`\beta`), sun scattering angle (:math:`\theta_s`), and plotted statistic at the **selected** position, which shows in the figure axes as a purple cross.
 
+The *Cursor Position (Selected)* can be specified by clicking on the plotted data, or adjust the *Camera Bearing (from N)* and *Camera Inclination* inputs.
+
 Plot Visibility
 ---------------
 
@@ -148,7 +150,7 @@ Additional Utilities
 "Maximizer"
 -----------
 
-The *maximizer* utility permits the user to obtain the maximum relative uncertainty over the :math:`\alpha_N-\beta` domain given a measurement period. This is useful as it allows a user to optimally position the sky-LOSA camera during a predicted measurement period. The utility can be initiated by selecting *File ⭢ "Maximizer": Compute Period Maximum* or by pressing *Ctrl + M*. The software then prompts the user for two inputs, as shown in the screenshot below:
+The *maximizer* utility permits the user to obtain the maximum relative uncertainty over the :math:`\alpha_N-\beta` domain given a measurement period. This is useful as it allows a user to optimally position the sky-LOSA camera during a predicted measurement period. The utility can be initiated by selecting *File ⭢ "Maximizer": Compute Period Maximum*, by pressing *Ctrl+M*, or by pressing the *Run "Maximizer" Utility"* button. The software then prompts the user for two inputs, as shown in the screenshot below:
 
   1. A radio button input prompting the user whether maximization should be performed over the currently selected sky model (default) or over all sky groups.
 
@@ -172,7 +174,7 @@ Upon pressing the "Compute Maximum Uncertainty" button, the software performs th
 "Positioner"
 ------------
 
-The *positioner* utility permits the user to obtain viable camera positions given a threshold in the plotted uncertainty data. This utility takes the uncertainty as a function of camera *pointing* and calculates permissible camera *positions* based on user-provided flare stack height, maximum stand-off distance, and uncertainty threshold. The utility can be initiated by selecting *File ⭢ "Positioner": Compute Permissible Camera Locations* or by pressing *Ctrl + P*. The software then prompts the user for the three listed inputs and plots the permissible camera positions, as shown in the screenshot below:
+The *positioner* utility permits the user to obtain viable camera positions given a threshold in the plotted uncertainty data. This utility takes the uncertainty as a function of camera *pointing* and calculates permissible camera *positions* based on user-provided flare stack height, maximum stand-off distance, and uncertainty threshold. The utility can be initiated by selecting *File ⭢ "Positioner": Compute Permissible Camera Locations*, by pressing *Ctrl+P*, or by pressing the *Run "Positioner" Utility* button. The software then prompts the user for the three listed inputs and plots the permissible camera positions, as shown in the screenshot below:
 
 .. image:: images/Screenshot_04_Positioner.png
    :align: center
