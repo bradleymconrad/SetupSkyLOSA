@@ -65,7 +65,7 @@ Publications
 
   .. masterref-start
 
-  Conrad, B.M. & Johnson, M.R. (2020), An uncertainty-based protocol for the setup and measurement of soot/black carbon emissions from gas flares using sky-LOSA, **Atmos. Meas. Tech.**, *in preparation*.
+  Conrad, B.M. & Johnson, M.R. (2020), An uncertainty-based protocol for the setup and measurement of soot/black carbon emissions from gas flares using sky-LOSA, **Atmos. Meas. Tech.** (doi: `10.5194/amt-2020-255 <https://doi.org/10.5194/amt-2020-255>`_) *[under public review]*.
 
   .. masterref-end
 
